@@ -1,0 +1,75 @@
+* {
+  background-color: var(--background1);
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --background1: #000517;
+  --cage-background: #1b1a38;
+  --text1: #ffffff;
+  --background2: #ffffff;
+  --stroke: #ffffff;
+}
+
+.Auth-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.Auth-container-form {
+  width: 50%;
+  background-color: var(--cage-background);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  color: var(--text1);
+  cursor: pointer;
+}
+
+.open-btn {
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: var(--text1);
+  background-color: none;
+}
+
+input {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  background: var(--cage-background);
+  color: var(--stroke);
+}
+
+.Login-btn {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: none;
+  color: var(--stroke);
+}
+
+.Link-btn {
+  background-color: var(--cage-background);
+  border: none;
+  cursor: pointer;
+}
+
+.Enter-btn {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  background-color: none;
+  border-radius: 10px;
+}
